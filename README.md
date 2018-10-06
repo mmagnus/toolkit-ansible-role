@@ -36,7 +36,7 @@ ansible-container --debug build
 
 ## Step 3: Run the container
 ```
-docker run --publish 8888:8888 --name toolkit rna-puzzles-toolkit 
+docker run --publish 8888:8888 --name toolkit rnapuzzles/toolkit
 ```
 
 To kill the running container, execute:
